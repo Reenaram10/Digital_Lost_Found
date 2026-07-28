@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Lost & Found</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Digital Lost & Found System</h1>
+
+<div class="container">
+
+    <input type="text" id="itemName" placeholder="Item Name">
+
+    <input type="text" id="category" placeholder="Category">
+
+    <input type="text" id="location" placeholder="Location">
+
+    <select id="status">
+        <option>Lost</option>
+        <option>Found</option>
+    </select>
+
+    <textarea id="description" placeholder="Description"></textarea>
+
+    <button id="saveBtn">Add Item</button>
+
+</div>
+
+<hr>
+
+<h2>Reported Items</h2>
+
+<div id="itemList"></div>
+
+<script src="App.js"></script>
+
+</body>
+</html>
