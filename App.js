@@ -15,7 +15,7 @@ document.getElementById("saveBtn").onclick = function(){
     };
 
     if(item.name=="" || item.category==""){
-        alert("Fill required fields");
+        alert("Fill fields required");
         return;
     }
 
